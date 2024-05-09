@@ -1,0 +1,138 @@
+html {
+    font-size: 10px; /* Default size */
+}
+
+@media (min-width: 48em) {
+    html {
+        font-size: 12px; /* Slightly larger base size */
+    }
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 14px; /* Larger base size for larger viewports */
+    }
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    padding: .5em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.mainButton, .subButton {
+    border-radius: 2em;
+    height: 3em; /* Ensure main and sub buttons have the same height */
+    font-size: 2em; /* Consistent font size */
+    cursor: pointer;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kai{
+    border-radius: 2em;
+    height: 3em;
+    width: 3em;
+    font-size: 2em; /* Consistent font size */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Specific styles for main buttons */
+.mainButton {
+    padding: 0 1em; /* Adjust padding for visual consistency */
+    background-color: black;
+    color: white;
+    border: none;
+    margin-bottom: 1em;
+    
+}
+
+.mainButton:active, .mainButton:focus, .closeButton {
+    background-color: grey;
+}
+
+#reset {
+    background-color: rgb(0, 175, 0); /* Green background indicating action needed */
+    color: white; /* White text for contrast */
+    width: 3em;
+    border: 2px solid black; /* Explicitly define border style and width along with color */
+    display: none; /* Initially hidden */
+    border-radius: 2em; /* Optional: to match other buttons, if rounded borders are desired */
+}
+
+
+/* Adjusted subButton styles to match mainButton in appearance */
+.subButton, .subButton.selected {
+    width: 3em; /* Ensure width is at least 3em to maintain aspect ratio */
+    padding: 0 1em; /* Padding adjusted to match mainButton */
+    /*font-size: 1.5em;  Font size adjusted for consistency */
+    position: relative; /* Needed for ::after pseudo-element */
+}
+
+/* Style for indicating selection */
+.subButton.selected::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.15); /* 10% opacity overlay for selection indication */
+    border-radius: 50%; /* Maintains circular overlay if desired */
+    pointer-events: none;
+}
+
+.subButton-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.subButton:last-of-type, .closeButton {
+    background-color: red;
+    color: white;
+    border-color: black;
+}
+
+#itemsDisplay {
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.item img {
+    width: 800px; /* Adjust based on your layout needs */
+    height: auto;
+}
+
+.theatre-mode {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    
+}
+
+.theatre-mode img {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 2em;
+}

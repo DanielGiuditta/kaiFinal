@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kai's Sticker Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="button-container">
+        <button class="mainButton" id="kai">👶🏽</button>
+        <button class="mainButton" id="abc">ABC</button>
+        <button class="mainButton" id="type">Type</button>
+        <button class="mainButton" id="color">Color</button>
+        <button class="mainButton" id="reset"><img src="reset.png"  height="24"></button>
+    </div>
+    <div class="subButton-container" id="abcSubButtons" style="display: none;">
+        <button class="subButton" data-letter="a">A</button>
+        <button class="subButton" data-letter="b">B</button>
+        <button class="subButton" data-letter="c">C</button>
+        <button class="subButton" data-letter="d">D</button>
+        <button class="subButton" data-letter="e">E</button>
+        <button class="subButton" data-letter="f">F</button>
+        <button class="subButton" data-letter="g">G</button>
+        <button class="subButton" data-letter="h">H</button>
+        <button class="subButton" data-letter="i">I</button>
+        <button class="subButton" data-letter="j">J</button>
+        <button class="subButton" data-letter="k">K</button>
+        <button class="subButton" data-letter="l">L</button>
+        <button class="subButton" data-letter="m">M</button>
+        <button class="subButton" data-letter="n">N</button>
+        <button class="subButton" data-letter="o">O</button>
+        <button class="subButton" data-letter="p">P</button>
+        <button class="subButton" data-letter="q">Q</button>
+        <button class="subButton" data-letter="r">R</button>
+        <button class="subButton" data-letter="s">S</button>
+        <button class="subButton" data-letter="t">T</button>
+        <button class="subButton" data-letter="u">U</button>
+        <button class="subButton" data-letter="v">V</button>
+        <button class="subButton" data-letter="w">W</button>
+        <button class="subButton" data-letter="x">X</button>
+        <button class="subButton" data-letter="y">Y</button>
+        <button class="subButton" data-letter="z">Z</button>
+        <button class="subButton closeButton"><img src="close.png"  height="24"></button>
+
+    </div>
+    <div class="subButton-container" id="typeSubButtons" style="display: none;">
+        <button class="subButton" data-type="plant">🌱</button>
+        <button class="subButton" data-type="animal">🦓</button>
+        <button class="subButton" data-type="vehicle">🚗</button>
+        <button class="subButton" data-type="food">🍔</button>
+        <button class="subButton" data-type="machine">⚙️</button>
+        <button class="subButton" data-type="scene">🎬</button>
+        <button class="subButton" data-type="symbol">🔀</button>
+        <button class="subButton closeButton"><img src="close.png"  height="24"></button>
+    </div>
+    <div class="subButton-container" id="colorSubButtons" style="display: none;">
+        <button class="subButton colorButton" style="background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);" data-color="multi"></button>
+        <button class="subButton colorButton" style="background-color: red;" data-color="red"></button>
+        <button class="subButton colorButton" style="background-color: orange;" data-color="orange"></button>
+        <button class="subButton colorButton" style="background-color: yellow;" data-color="yellow"></button>
+        <button class="subButton colorButton" style="background-color: green;" data-color="green"></button>
+        <button class="subButton colorButton" style="background-color: blue;" data-color="blue"></button>
+        <button class="subButton colorButton" style="background-color: purple;" data-color="purple"></button>
+        <button class="subButton colorButton" style="background-color: brown;" data-color="brown"></button>
+        <button class="subButton colorButton" style="background-color: black;" data-color="black"></button>
+        <button class="subButton colorButton" style="background-color: whitesmoke;" data-color="white"></button>
+        <button class="subButton closeButton"><img src="close.png"  height="24"></button>
+    </div>
+    <div id="itemsDisplay"></div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,613 @@
+{
+    "items": [
+        {
+            "name": "A",
+            "letter": "a",
+            "category": "symbol",
+            "color": "green",
+            "image": "assets/a.png"
+        },
+        {
+            "name": "Apple",
+            "letter": "a",
+            "category": "food",
+            "color": "red",
+            "image": "assets/apple.png"
+        },
+        {
+            "name": "Artichoke",
+            "letter": "a",
+            "category": "food",
+            "color": "green",
+            "image": "assets/artichoke.png"
+        },
+        {
+            "name": "Auto",
+            "letter": "a",
+            "category": "vehicle",
+            "color": "multi",
+            "image": "assets/auto.png"
+        },
+        {
+            "name": "B",
+            "letter": "b",
+            "category": "symbol",
+            "color": "purple, pink",
+            "image": "assets/b.png"
+        },
+        {
+            "name": "Balloons",
+            "letter": "b",
+            "category": "object",
+            "color": "multi",
+            "image": "assets/balloons.png"
+        },
+        {
+            "name": "banana",
+            "letter": "b",
+            "category": "food, plant",
+            "color": "yellow",
+            "image": "assets/banana.png"
+        },
+        {
+            "name": "Beachball",
+            "letter": "b",
+            "category": "object",
+            "color": "multi",
+            "image": "assets/beachball.png"
+        },
+        {
+            "name": "boombox",
+            "letter": "b",
+            "category": "machine",
+            "color": "blue",
+            "image": "assets/boombox.png"
+        },
+        {
+            "name": "Bucket",
+            "letter": "b",
+            "category": "object",
+            "color": "multi",
+            "image": "assets/bucket.png"
+        },
+        {
+            "name": "Burger",
+            "letter": "b",
+            "category": "food",
+            "color": "multi",
+            "image": "assets/burger.png"
+        },
+        {
+            "name": "Bus",
+            "letter": "b",
+            "category": "vehicle",
+            "color": "red",
+            "image": "assets/bus.png"
+        },
+        {
+            "name": "C",
+            "letter": "c",
+            "category": "symbol",
+            "color": "brown, white",
+            "image": "assets/c.png"
+        },
+        {
+            "name": "Cactus",
+            "letter": "c",
+            "category": "plant",
+            "color": "green",
+            "image": "assets/cactus.png"
+        },
+        {
+            "name": "Cake",
+            "letter": "c",
+            "category": "food",
+            "color": "multi",
+            "image": "assets/cake.png"
+        },
+        {
+            "name": "Car",
+            "letter": "c",
+            "category": "vehicle",
+            "color": "red",
+            "image": "assets/car.png"
+        },
+        {
+            "name": "Cat",
+            "letter": "c",
+            "category": "animal",
+            "color": "black, white",
+            "image": "assets/cat.png"
+        },
+        {
+            "name": "Cherry Blossom",
+            "letter": "c",
+            "category": "plant",
+            "color": "red, white",
+            "image": "assets/cherryBlossom.png"
+        },
+        {
+            "name": "Christmas Tree",
+            "letter": "c",
+            "category": "plant, object, symbol",
+            "color": "green",
+            "image": "assets/christmasTree.png"
+        },
+        {
+            "name": "Circle",
+            "letter": "c",
+            "category": "symbol",
+            "color": "red",
+            "image": "assets/circle.png"
+        },
+        {
+            "name": "Clown Fish",
+            "letter": "c",
+            "category": "animal",
+            "color": "orange",
+            "image": "assets/clownfish.png"
+        },
+        {
+            "name": "construction crane",
+            "letter": "c",
+            "category": "machine",
+            "color": "yellow",
+            "image": "assets/constructionCrane.png"
+        },
+        {
+            "name": "Cornucopia",
+            "letter": "c",
+            "category": "food",
+            "color": "brown, multi",
+            "image": "assets/cornucopia.png"
+        },
+        {
+            "name": "Cow",
+            "letter": "c",
+            "category": "cow",
+            "color": "black, white",
+            "image": "assets/cow.png"
+        },
+        {
+            "name": "crane bird",
+            "letter": "c",
+            "category": "animal",
+            "color": "white",
+            "image": "assets/craneBird.png"
+        },
+        {
+            "name": "D",
+            "letter": "d",
+            "category": "symbol",
+            "color": "red",
+            "image": "assets/d.png"
+        },
+        {
+            "name": "Daffodil ",
+            "letter": "d",
+            "category": "plant",
+            "color": "yellow",
+            "image": "assets/daffodil.png"
+        },
+        {
+            "name": "Duck",
+            "letter": "d",
+            "category": "animal",
+            "color": "white",
+            "image": "assets/duck.png"
+        },
+        {
+            "name": "E",
+            "letter": "e",
+            "category": "symbol",
+            "color": "blue",
+            "image": "assets/e.png"
+        },
+        {
+            "name": "Egg",
+            "letter": "e",
+            "category": "food",
+            "color": "brown",
+            "image": "assets/egg.png"
+        },
+        {
+            "name": "Eiffel Tower",
+            "letter": "e",
+            "category": "object",
+            "color": "gray",
+            "image": "assets/eiffel.png"
+        },
+        {
+            "name": "Elephant",
+            "letter": "e",
+            "category": "animal",
+            "color": "grey",
+            "image": "assets/elephant.png"
+        },
+        {
+            "name": "F",
+            "letter": "e",
+            "category": "symbol",
+            "color": "brown",
+            "image": "assets/f.png"
+        },
+        {
+            "name": "Fan Coral",
+            "letter": "f, c",
+            "category": "animal",
+            "color": "red",
+            "image": "assets/fanCoral.png"
+        },
+        {
+            "name": "Fern",
+            "letter": "f",
+            "category": "plant",
+            "color": "green",
+            "image": "assets/fern.png"
+        },
+        {
+            "name": "Fighter Jet",
+            "letter": "f, j",
+            "category": "vehicle",
+            "color": "black",
+            "image": "assets/fighterjet.png"
+        },
+        {
+            "name": "Fire ",
+            "letter": "f",
+            "category": "scene",
+            "color": "red, orange, brown",
+            "image": "assets/fire.png"
+        },
+        {
+            "name": "Fire Truck",
+            "letter": "f",
+            "category": "vehicle",
+            "color": "red",
+            "image": "assets/fireTruck.png"
+        },
+        {
+            "name": "Fountain",
+            "letter": "f",
+            "category": "scene",
+            "color": "gray",
+            "image": "assets/fountain.png"
+        },
+        {
+            "name": "G",
+            "letter": "g",
+            "category": "symbol",
+            "color": "multi",
+            "image": "assets/g.png"
+        },
+        {
+            "name": "H",
+            "letter": "h",
+            "category": "symbol",
+            "color": "multi",
+            "image": "assets/h.png"
+        },
+        {
+            "name": "Hexagon",
+            "letter": "h",
+            "category": "symbol",
+            "color": "yellow",
+            "image": "assets/hexagon.png"
+        },
+        {
+            "name": "Horse",
+            "letter": "h",
+            "category": "animal",
+            "color": "brown",
+            "image": "assets/horse.png"
+        },
+        {
+            "name": "I",
+            "letter": "i",
+            "category": "symbol",
+            "color": "black",
+            "image": "assets/i.png"
+        },
+        {
+            "name": "island",
+            "letter": "i",
+            "category": "scene",
+            "color": "blue",
+            "image": "assets/island.png"
+        },
+        {
+            "name": "J",
+            "letter": "j",
+            "category": "symbol",
+            "color": "black",
+            "image": "assets/j.png"
+        },
+        {
+            "name": "Jet",
+            "letter": "j",
+            "category": "vehicle",
+            "color": "white",
+            "image": "assets/jet.png"
+        },
+        {
+            "name": "K",
+            "letter": "k",
+            "category": "symbol",
+            "color": "red, black",
+            "image": "assets/k.png"
+        },
+        {
+            "name": "L",
+            "letter": "l",
+            "category": "symbol",
+            "color": "purple",
+            "image": "assets/l.png"
+        },
+        {
+            "name": "ladybug",
+            "letter": "l",
+            "category": "animal",
+            "color": "red",
+            "image": "assets/ladybug.png"
+        },
+        {
+            "name": "Lighthouse",
+            "letter": "l",
+            "category": "object",
+            "color": "red, white",
+            "image": "assets/lighthouse.png"
+        },
+        {
+            "name": "Log Cabin",
+            "letter": "l, c",
+            "category": "object",
+            "color": "brown",
+            "image": "assets/logCabin.png"
+        },
+        {
+            "name": "M",
+            "letter": "m",
+            "category": "symbol",
+            "color": "multi",
+            "image": "assets/m.png"
+        },
+        {
+            "name": "monarch",
+            "letter": "m",
+            "category": "animal",
+            "color": "orange",
+            "image": "assets/monarch.png"
+        },
+        {
+            "name": "mountain",
+            "letter": "m",
+            "category": "scene",
+            "color": "blue",
+            "image": "assets/mountain.png"
+        },
+        {
+            "name": "Mushroom White",
+            "letter": "m",
+            "category": "plant",
+            "color": "white",
+            "image": "assets/mushroomWhite.png"
+        },
+        {
+            "name": "N",
+            "letter": "n",
+            "category": "symbol",
+            "color": "purple",
+            "image": "assets/n.png"
+        },
+        {
+            "name": "O",
+            "letter": "o",
+            "category": "symbol",
+            "color": "yellow, black, red",
+            "image": "assets/o.png"
+        },
+        {
+            "name": "P",
+            "letter": "p",
+            "category": "symbol",
+            "color": "red",
+            "image": "assets/p.png"
+        },
+        {
+            "name": "Panda",
+            "letter": "p",
+            "category": "animal",
+            "color": "black",
+            "image": "assets/panda.png"
+        },
+        {
+            "name": "Parrot",
+            "letter": "p",
+            "category": "animal",
+            "color": "red, yellow, blue",
+            "image": "assets/parrot.png"
+        },
+        {
+            "name": "Peacock",
+            "letter": "p",
+            "category": "animal",
+            "color": "blue, green, multi",
+            "image": "assets/peacock.png"
+        },
+        {
+            "name": "Pine Tree",
+            "letter": "p",
+            "category": "plant",
+            "color": "green",
+            "image": "assets/pineTree.png"
+        },
+        {
+            "name": "pizza",
+            "letter": "p",
+            "category": "food",
+            "color": "yellow, red",
+            "image": "assets/pizza.png"
+        },
+        {
+            "name": "Q",
+            "letter": "q",
+            "category": "symbol",
+            "color": "blue",
+            "image": "assets/q.png"
+        },
+        {
+            "name": "R",
+            "letter": "r",
+            "category": "symbol",
+            "color": "red",
+            "image": "assets/r.png"
+        },
+        {
+            "name": "Rectangle",
+            "letter": "r",
+            "category": "symbol",
+            "color": "blue",
+            "image": "assets/rectangle.png"
+        },
+        {
+            "name": "reef",
+            "letter": "r",
+            "category": "scene",
+            "color": "blue",
+            "image": "assets/reef.png"
+        },
+        {
+            "name": "Rooster",
+            "letter": "r",
+            "category": "animal",
+            "color": "red, brown, blue, green",
+            "image": "assets/rooster.png"
+        },
+        {
+            "name": "S",
+            "letter": "s",
+            "category": "symbol",
+            "color": "white",
+            "image": "assets/s.png"
+        },
+        {
+            "name": "Saturn",
+            "letter": "s",
+            "category": "space",
+            "color": "brown",
+            "image": "assets/saturn.png"
+        },
+        {
+            "name": "shape",
+            "letter": "s",
+            "category": "symbol",
+            "color": "multi",
+            "image": "assets/shape.png"
+        },
+        {
+            "name": "Slide",
+            "letter": "s",
+            "category": "object",
+            "color": "red",
+            "image": "assets/slide.png"
+        },
+        {
+            "name": "Street Sweeper",
+            "letter": "s",
+            "category": "vehicle",
+            "color": "orange",
+            "image": "assets/streetSweeper.png"
+        },
+        {
+            "name": "Swimming Pool",
+            "letter": "s",
+            "category": "object",
+            "color": "blue",
+            "image": "assets/swimmingPool.png"
+        },
+        {
+            "name": "T",
+            "letter": "t",
+            "category": "symbol",
+            "color": "yellow",
+            "image": "assets/t.png"
+        },
+        {
+            "name": "Tiger",
+            "letter": "t",
+            "category": "animal",
+            "color": "orange, black",
+            "image": "assets/tiger.png"
+        },
+        {
+            "name": "Triangle",
+            "letter": "t",
+            "category": "symbol",
+            "color": "green",
+            "image": "assets/triangle.png"
+        },
+        {
+            "name": "U",
+            "letter": "u",
+            "category": "symbol",
+            "color": "green",
+            "image": "assets/u.png"
+        },
+        {
+            "name": "Umbrella",
+            "letter": "u",
+            "category": "object",
+            "color": "multi",
+            "image": "assets/umbrella.png"
+        },
+        {
+            "name": "V",
+            "letter": "v",
+            "category": "symbol",
+            "color": "multi",
+            "image": "assets/v.png"
+        },
+        {
+            "name": "Volcano",
+            "letter": "v",
+            "category": "scene",
+            "color": "red, brown",
+            "image": "assets/volcano.png"
+        },
+        {
+            "name": "W",
+            "letter": "w",
+            "category": "symbol",
+            "color": "orange",
+            "image": "assets/w.png"
+        },
+        {
+            "name": "Water Tower",
+            "letter": "w",
+            "category": "oject",
+            "color": "red",
+            "image": "assets/waterTower.png"
+        },
+        {
+            "name": "X",
+            "letter": "x",
+            "category": "symbol",
+            "color": "grey",
+            "image": "assets/x.png"
+        },
+        {
+            "name": "Y",
+            "letter": "y",
+            "category": "symbol",
+            "color": "pink",
+            "image": "assets/y.png"
+        },
+        {
+            "name": "Z",
+            "letter": "z",
+            "category": "symbol",
+            "color": "pink, blue",
+            "image": "assets/z.png"
+        }
+    ]
+}
