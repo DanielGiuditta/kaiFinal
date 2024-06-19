@@ -1,86 +1,74 @@
 html {
-    font-size: 10px; /* Default size */
+    font-size: 10px;
 }
 
 @media (min-width: 48em) {
     html {
-        font-size: 12px; /* Slightly larger base size */
+        font-size: 12px;
     }
 }
 
 @media (min-width: 64em) {
     html {
-        font-size: 14px; /* Larger base size for larger viewports */
+        font-size: 14px;
     }
 }
 
 body {
     font-family: 'Helvetica', sans-serif;
-    padding: .5em;
+    padding: 0.5em;
 }
 
-.button-container {
+.button-container, .subButton-container {
     display: flex;
-    justify-content: flex-start;
     gap: 1em;
 }
 
 .mainButton, .subButton {
     border-radius: 2em;
-    height: 3em; /* Ensure main and sub buttons have the same height */
-    font-size: 2em; /* Consistent font size */
+    height: 3em;
+    font-size: 2em;
     cursor: pointer;
     border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black; /* Ensure text is always black */
 }
 
-#kai{
-    border-radius: 2em;
-    height: 3em;
+#kai {
     width: 3em;
-    font-size: 2em; /* Consistent font size */
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-/* Specific styles for main buttons */
 .mainButton {
-    padding: 0 1em; /* Adjust padding for visual consistency */
+    padding: 0 1em;
     background-color: black;
     color: white;
     border: none;
     margin-bottom: 1em;
-    
 }
 
-.mainButton:active, .mainButton:focus, .closeButton {
+.mainButton:active, .mainButton:focus {
     background-color: grey;
 }
 
 #reset {
-    background-color: rgb(0, 175, 0); /* Green background indicating action needed */
-    color: white; /* White text for contrast */
+    background-color: rgb(0, 175, 0);
+    color: white;
     width: 3em;
-    border: 2px solid black; /* Explicitly define border style and width along with color */
-    display: none; /* Initially hidden */
-    border-radius: 2em; /* Optional: to match other buttons, if rounded borders are desired */
+    display: none;
+    border-radius: 2em;
 }
 
-
-/* Adjusted subButton styles to match mainButton in appearance */
-.subButton, .subButton.selected {
-    width: 3em; /* Ensure width is at least 3em to maintain aspect ratio */
-    padding: 0 1em; /* Padding adjusted to match mainButton */
-    /*font-size: 1.5em;  Font size adjusted for consistency */
-    position: relative; /* Needed for ::after pseudo-element */
+.subButton {
+    width: 3em;
+    padding: 0 1em;
+    position: relative;
+    color: black; /* Ensure text is always black */
 }
 
-/* Style for indicating selection */
 .subButton.selected::after {
     content: '';
     position: absolute;
@@ -88,8 +76,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.15); /* 10% opacity overlay for selection indication */
-    border-radius: 50%; /* Maintains circular overlay if desired */
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
     pointer-events: none;
 }
 
@@ -112,8 +100,13 @@ body {
     gap: 1em;
 }
 
+.item {
+    flex: 1 1 200px; /* Ensure that items take up a minimum of 200px and flex-grow */
+    max-width: 200px;
+}
+
 .item img {
-    width: 800px; /* Adjust based on your layout needs */
+    width: 100%; /* Ensure that image takes up the full width of its container */
     height: auto;
 }
 
@@ -128,11 +121,36 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 10;
-    
 }
 
 .theatre-mode img {
     max-width: 80%;
     max-height: 80%;
     border-radius: 2em;
+}
+
+/* Additional Media Queries for Scaling Down Elements */
+@media (max-width: 600px) {
+    html {
+        font-size: 8px; /* Scale down font size */
+    }
+    .mainButton, .subButton {
+        height: 3em;
+        font-size: 2em;
+    }
+    #kai {
+        width: 3em;
+        height: 3em;
+    }
+    .subButton {
+        width: 3em;
+    }
+    #itemsDisplay .item {
+        flex: 1 1 100px; /* Ensure that items take up a minimum of 100px on smaller screens */
+        max-width: 100px;
+    }
+    #itemsDisplay .item img {
+        max-width: 100%; /* Ensure images scale down to fit their container */
+        height: auto;
+    }
 }
