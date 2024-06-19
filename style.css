@@ -146,8 +146,8 @@ body {
         width: 3em;
     }
     #itemsDisplay .item {
-        flex: 1 1 120px; /* Ensure that items take up a minimum of 100px on smaller screens */
-        max-width: 120px;
+        flex: 1 1 110px; /* Ensure that items take up a minimum of 100px on smaller screens */
+        max-width: 110px;
     }
     #itemsDisplay .item img {
         max-width: 100%; /* Ensure images scale down to fit their container */
